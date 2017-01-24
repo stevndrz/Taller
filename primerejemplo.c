@@ -1,6 +1,6 @@
 /*
 Proyecto: Blinkin LED
-Developer: Nichael Duarte
+Developer: Michael Duarte
 Dispositivo: PIC16F887
 Reloj: 8MHz, INSTOSCIO
 Número de Compilaciones: 1
