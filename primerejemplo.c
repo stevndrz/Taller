@@ -24,6 +24,7 @@ void main(){
  TRISB = 0;
  ANSEL = 0;
   
- while(){
+ 
+}
    
 
