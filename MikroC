@@ -1,0 +1,24 @@
+PIC16F887
+
+Abrir editor de proyectos
+Seleccion de Oscilador
+
+Tipos de Datos
+Bit a;
+char b = 'k';
+int d = 123;
+unsigned char f = 43;
+unsigned int e = 456;
+unsigned int g = -14; //esto no se puede porque no tiene signo
+short l = 0x43; //va de -128 a 127
+unsigned short k= 0x16 //no puedo declarar valores negativos
+long j = 1436789;
+unsigned long a = 3753159;
+
+/*todas estas variables se conocen como variabes globales: las variables globales son aquellas que existen en todo el 
+programa, es la misma en cada funcion o subrutina*/
+
+//Quick Converter
+
+
+
