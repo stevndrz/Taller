@@ -12,13 +12,9 @@ unsigned int e = 456;
 unsigned int g = -14; //esto no se puede porque no tiene signo
 short l = 0x43; //va de -128 a 127
 unsigned short k= 0x16 //no puedo declarar valores negativos
+short:255
 long j = 1436789;
 unsigned long a = 3753159;
-
 /*todas estas variables se conocen como variabes globales: las variables globales son aquellas que existen en todo el 
 programa, es la misma en cada funcion o subrutina*/
-
 //Quick Converter
-
-
-
