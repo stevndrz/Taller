@@ -1,0 +1,9 @@
+sbit DATA at LATD6_bit;
+sbit STAT at LATG6_bit;
+
+void Wait({
+ Delay_ms(1000);
+}
+void main() {
+
+}
