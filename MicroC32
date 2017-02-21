@@ -1,9 +1,22 @@
 sbit DATA at LATD6_bit;
 sbit STAT at LATG6_bit;
 
-void Wait({
- Delay_ms(1000);
+void Wait(){
+ Delay_ms(1000);           //Especifico una funcion que espera 100ms
 }
 void main() {
-
+     AD1PCFG = 0XFFFFF;     //Defino todos los pines como digitales
+     
+     TRISD = 0;             //Declaro puerto D como salida
+     TRISG = 0;             //Declaro puerto G como salida
+     
+     LATD6_bit=1;           //Establezco un 1 en D6
+     LATG6_bit=1;           //Establezco un 1 en G6
+     
+     while(1){
+     Wait();
+     LATD6_bit =~LATD6_bit; //Significa negado
+     LATG6_bit =~LATG6_bit;
+     }
+     
 }
